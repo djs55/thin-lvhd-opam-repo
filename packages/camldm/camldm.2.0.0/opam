@@ -10,8 +10,15 @@ remove: [
 ]
 depends: [
   "ocamlfind"
-  "oasis"
   "rpc" {>= "1.5.0"}
+  "sexplib"
+  "ctypes"
+  "oasis"
+  "ounit"
+  "cstruct"
+  "lwt"
+  "re"
+  "stringext"
 ] 
 os: ["linux"]
 depexts: [
