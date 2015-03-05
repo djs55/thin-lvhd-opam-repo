@@ -18,6 +18,7 @@ depends: [
   "uuidm"
   "re"
   "mirage-types"
+  "ipaddr"
   "ounit"
   "kaputt"
   "io-page" {> "1.2.0"}
