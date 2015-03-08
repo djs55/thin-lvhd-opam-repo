@@ -25,4 +25,5 @@ depends: [
   "mirage-block-unix"
   "cmdliner"
   "shared-block-ring"
+  "bisect"
 ]
