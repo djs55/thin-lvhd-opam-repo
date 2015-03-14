@@ -27,6 +27,7 @@ depends: [
   "kaputt"
   "io-page" {> "1.2.0"}
   "mirage-block-unix"
+  "mirage-clock-unix"
   "cmdliner"
   "shared-block-ring"
   "bisect"
