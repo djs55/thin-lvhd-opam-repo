@@ -5,10 +5,14 @@ tags: [
   "org:xapi-project"
 ]
 build: [
+  [make "release"]
   [make "all"]
   [make "install"]
 ]
-remove: [["ocamlfind" "remove" "lvm"]]
+remove: [
+  ["ocamlfind" "remove" "lvm"]
+  ["ocamlfind" "remove" "lvm_internal"]
+]
 depends: [
   "cstruct" {>= "0.7.1"}
   "camldm" {>= "2.0.0"}
