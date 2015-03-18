@@ -19,6 +19,5 @@ depends: [
   "mirage-block-unix"
   "sexplib"
   "io-page"
-  "io-page-unix"
   "cmdliner"
 ]
