@@ -20,4 +20,5 @@ depends: [
   "sexplib"
   "io-page"
   "cmdliner"
+  "oasis"
 ]
