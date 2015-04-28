@@ -22,5 +22,6 @@ depends: [
   "io-page" {> "1.2.0"}
   "mirage-block-unix"
   "cmdliner"
-  "cohttp"
+  "cohttp" {>= "0.15.2"}
+  "ssl"
 ]
