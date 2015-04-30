@@ -15,6 +15,7 @@ depends: [
   "ocamlfind"
   "ounit"
   "mirage-types"
+  "ipaddr"
   "mirage-block-unix"
   "sexplib"
   "io-page"
