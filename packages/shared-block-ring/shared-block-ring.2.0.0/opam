@@ -5,7 +5,6 @@ tags: [
   "org:xapi-project"
 ]
 build: [
-  [make "release"]
   [make "all"]
   [make "install"]
 ]
